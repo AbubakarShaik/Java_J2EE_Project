@@ -1,0 +1,22 @@
+package com.testprojectDBConnection;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class DAOoperations {
+	
+	Connection conn;
+	PreparedStatement ps;
+	ResultSet rs;
+	
+	public DAOoperations(){
+	
+	conn=DataBaseConnection.getInstance().Connection;
+	}
+	
+	public int InsertData(){
+		return null;
+		
+	}
+}

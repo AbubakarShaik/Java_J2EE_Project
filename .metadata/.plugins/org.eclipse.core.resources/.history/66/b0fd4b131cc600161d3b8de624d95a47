@@ -1,0 +1,5 @@
+package com.testprojectDBConnection;
+
+public class DataBaseConnection {
+
+}

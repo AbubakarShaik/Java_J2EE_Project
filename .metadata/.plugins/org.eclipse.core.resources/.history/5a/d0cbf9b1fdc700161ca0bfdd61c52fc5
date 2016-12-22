@@ -1,0 +1,46 @@
+package com.testprojectDBConnection;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.testbean.Employee;
+
+public class DAOoperations {
+	
+	Connection conn;
+	PreparedStatement ps;
+	ResultSet rs;
+	
+	public DAOoperations(){
+	
+	conn=DataBaseConnection.getInstance().Connection;
+	}
+	
+	public int InsertData(Employee emp){
+		
+		int result=0;
+		
+		String query="insert into employe values(?,?,?,?,?)";
+		try {
+			ps=conn.prepareStatement(query);
+			ps.setString(1, emp.getName());
+			ps.setString(2, emp.getMailId());
+			ps.setString(3, emp.getPassword());
+			ps.setString(4, emp.getConformPassword());
+			ps.setInt(5, emp.getMobileNumber());
+			
+			result=ps.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		return result;
+		
+	}
+	
+	
+}

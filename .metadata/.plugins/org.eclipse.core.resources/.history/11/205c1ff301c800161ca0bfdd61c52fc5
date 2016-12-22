@@ -1,0 +1,12 @@
+package com.testprojectDBConnection;
+
+public class LoginDAO {
+	
+	public static int login(){
+		
+		
+		return 0;
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+</head>
+
+<body>
+<h1>Welcome Dhatriinfo Solution Pvt ltd </h1>
+<br>
+</br>
+
+<merquee> Welcome Dhatriinfo Solution Pvt ltd </merquee>
+
+<br>
+</br>
+
+<a href="Registration.jsp"> New user Registration</a><br>
+<a href="login.jsp"> <right>User Login</right></a>
+
+</body>
+</html>

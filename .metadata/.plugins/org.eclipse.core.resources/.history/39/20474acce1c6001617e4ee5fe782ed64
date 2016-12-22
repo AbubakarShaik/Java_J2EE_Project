@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+{
+}
+
+
+</script>
+</head>
+<body bgcolor="pink"> 
+
+<center>
+<form action="EmpRegistion" method="post">
+<h1> Employe registation From</h1>
+
+Name:<br><input type="text" name="firstName" placeholder="First Name"> <input type="text" name="LastName"placeholder="Last Name">
+<br>
+
+<br>
+Mail_Id:<br>
+<input type="text" name="MailId" placeholder="Mail" >
+<br>
+
+<br>
+Password:<br>
+<input type="text" name="Password">
+<br>
+
+<br>
+conform_Password:<br> 
+<input type="text" name="Password">
+<br>
+
+<br>
+Mobile_Number:<br>
++91<input type="text" name="Number" maxlength="10">
+<br>
+</center>
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+</head>
+
+<body>
+<center>
+<h1>Welcome Dhatriinfo Solution Pvt ltd </h1>
+</center>
+<br>
+</br>
+<br>
+</br>
+
+<right>
+<td>username:<input type="text" name="UserName" placeholder="Enter Mail_Id"></td>
+<br>
+</br>
+<td>Password:<input type="text" name="Password"></td>
+<br>
+</br>
+<td> <input type="Submit" value="Login"> </td>
+</right>
+
+<a href="Registration.jsp"> New user Registration</a><br>
+<a href="login.jsp"> <right>User Login</right></a>
+
+<right>
+<td>username:<input type="text" name="UserName" placeholder="Enter Mail_Id"></td>
+<br>
+</br>
+<td>Password:<input type="text" name="Password"></td>
+<br>
+</br>
+<td> <input type="Submit" value="Login"> </td>
+</right>
+
+</body>
+</html>

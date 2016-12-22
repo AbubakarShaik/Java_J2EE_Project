@@ -1,0 +1,5 @@
+package com.testbean;
+
+public class Employee {
+
+}

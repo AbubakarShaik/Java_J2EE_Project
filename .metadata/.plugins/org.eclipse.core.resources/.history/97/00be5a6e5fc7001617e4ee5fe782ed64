@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<center>
+<h1>succefully registered</h1>
+</center>
+<body>
+<br>
+</br>
+
+<br>
+</br>
+
+<a href="Registration.jsp"> New user Registration</a><br>
+<right><a href="login.jsp"> User Login</a>
+</right>
+</body>
+</html>

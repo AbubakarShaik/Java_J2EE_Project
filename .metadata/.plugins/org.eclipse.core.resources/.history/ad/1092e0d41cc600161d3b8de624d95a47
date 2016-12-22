@@ -1,0 +1,10 @@
+package com.testbean;
+
+public class Employee {
+	private String Name;
+	private String MailId;
+	private String Password;
+	private String conformPassword;
+	private int MobileNumber;
+
+}
